@@ -13,19 +13,19 @@ public class DiscountCalculate
 			{
 		  	  discount=totalamount*15/100;
 			}
-		        else {
+		 else {
 			if(totalamount>=5000 )
 			{
 		   	  discount=totalamount*10/100;
 			}
-			else {
+	          else {
 			 if(totalamount>=2500 )
 			{
 		    	   discount=totalamount*5/100;
 			}
-		     }
-		   }
-	         }
+		       }
+		      }
+	             }
 		System.out.println("Total Discount is = "+discount);
 	  }
 }
